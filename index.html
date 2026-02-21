@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Surya Paskah | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <button id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+    
+    <header class="header">
+        <nav class="nav">
+            <div class="navBrand">Alexander SP.</div>
+            <ul class="navList">
+                <li class="navItem"><a href="#home" class="navLink active">Home</a></li>
+                <li class="navItem"><a href="#about" class="navLink">About</a></li>
+                <li class="navItem"><a href="#projects" class="navLink">Projects</a></li>
+                <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
+            </ul>
+            <button class="mobileToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="heroContainer">
+                <div class="heroContent">
+                    <p class="heroGreeting">Hello, I'm</p>
+                    <h1 class="heroTitle">Alexander Surya Paskah</h1>
+                    <p class="heroSubtitle">Computer Science Student & Aspiring Software Developer crafting digital solutions with passion and precision</p>
+                    <div class="heroCta">
+                        <a href="#projects" class="btn btnPrimary">View My Work</a>
+                        <a href="#contact" class="btn btnSecondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="heroVisual">
+                    <div class="heroImageWrapper">
+                        <div class="heroImagePlaceholder">
+                            <span><img src="assets/foto.jpeg"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heroScroll">
+                <a href="#about" class="scrollIndicator">
+                    <span>Scroll Down</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 5v14M19 12l-7 7-7-7"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="sectionHeader">
+                    <p class="sectionLabel">About Me</p>
+                    <h2 class="sectionTitle">Bridging Academic Excellence with Real-World Innovation</h2>
+                </div>
+                <div class="aboutGrid">
+                    <div class="aboutStory">
+                        <h3 class="aboutHeading">My Journey</h3>
+                        <p class="aboutText">
+                            Currently pursuing Computer Science at Binus University, I am driven by an insatiable curiosity for technology and its potential to transform lives. My academic foundation in algorithms, data structures, and software engineering principles serves as the bedrock for my practical endeavors in web development and software engineering.
+                        </p>
+                        <p class="aboutText">
+                            Beyond the classroom, I immerse myself in building projects that challenge my capabilities and expand my technical horizons. I believe in the power of continuous learning and the importance of writing clean, maintainable code that stands the test of time.
+                        </p>
+                        <div class="aboutStats">
+                            <div class="statItem">
+                                <span class="statNumber">3+</span>
+                                <span class="statLabel">Years Coding</span>
+                            </div>
+                            <div class="statItem">
+                                <span class="statNumber">10+</span>
+                                <span class="statLabel">Projects Built</span>
+                            </div>
+                            <div class="statItem">
+                                <span class="statNumber">100%</span>
+                                <span class="statLabel">Commitment</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aboutSkills">
+                        <h3 class="aboutHeading">Technical Expertise</h3>
+                        <div class="skillSet">
+                            <div class="skillCategory">
+                                <h4 class="skillTitle">Frontend</h4>
+                                <div class="skillTags">
+                                    <span class="skillTag">HTML5</span>
+                                    <span class="skillTag">CSS3</span>
+                                    <span class="skillTag">JavaScript</span>
+                                    <span class="skillTag">React</span>
+                                </div>
+                            </div>
+                            <div class="skillCategory">
+                                <h4 class="skillTitle">Backend</h4>
+                                <div class="skillTags">
+                                    <span class="skillTag">Node.js</span>
+                                    <span class="skillTag">Python</span>
+                                    <span class="skillTag">MySQL</span>
+                                    <span class="skillTag">REST APIs</span>
+                                </div>
+                            </div>
+                            <div class="skillCategory">
+                                <h4 class="skillTitle">Tools</h4>
+                                <div class="skillTags">
+                                    <span class="skillTag">Git</span>
+                                    <span class="skillTag">GitHub</span>
+                                    <span class="skillTag">VS Code</span>
+                                    <span class="skillTag">Figma</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="sectionHeader">
+                    <p class="sectionLabel">Portfolio</p>
+                    <h2 class="sectionTitle">Featured Projects</h2>
+                    <p class="sectionDesc">A curated selection of my recent work showcasing problem-solving abilities and technical proficiency</p>
+                </div>
+                <div class="projectGrid">
+                    <article class="projectCard">
+                        <div class="projectImage">
+                            <div class="projectPlaceholder">E-Commerce Platform</div>
+                        </div>
+                        <div class="projectContent">
+                            <h3 class="projectTitle">Modern E-Commerce Platform</h3>
+                            <p class="projectDesc">A full-stack e-commerce solution featuring user authentication, product catalog management, shopping cart functionality, and secure payment integration.</p>
+                            <div class="projectTech">
+                                <span class="techBadge">React</span>
+                                <span class="techBadge">Node.js</span>
+                                <span class="techBadge">MongoDB</span>
+                            </div>
+                            <div class="projectLinks">
+                                <a href="https://github.com/AlexanderSP-GH" class="projectLink" target="_blank">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                    Source Code
+                                </a>
+                                <a href="#" class="projectLink projectLinkPrimary">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projectCard">
+                        <div class="projectImage">
+                            <div class="projectPlaceholder">Task Management App</div>
+                        </div>
+                        <div class="projectContent">
+                            <h3 class="projectTitle">Collaborative Task Manager</h3>
+                            <p class="projectDesc">A productivity application enabling teams to organize tasks, track progress, and collaborate in real-time with intuitive drag-and-drop interfaces.</p>
+                            <div class="projectTech">
+                                <span class="techBadge">JavaScript</span>
+                                <span class="techBadge">Firebase</span>
+                                <span class="techBadge">CSS Grid</span>
+                            </div>
+                            <div class="projectLinks">
+                                <a href="https://github.com/AlexanderSP-GH" class="projectLink" target="_blank">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                    Source Code
+                                </a>
+                                <a href="#" class="projectLink projectLinkPrimary">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projectCard">
+                        <div class="projectImage">
+                            <div class="projectPlaceholder">Weather Dashboard</div>
+                        </div>
+                        <div class="projectContent">
+                            <h3 class="projectTitle">Real-Time Weather Dashboard</h3>
+                            <p class="projectDesc">A responsive weather application providing accurate forecasts, interactive maps, and location-based alerts using third-party meteorological APIs.</p>
+                            <div class="projectTech">
+                                <span class="techBadge">HTML5</span>
+                                <span class="techBadge">CSS3</span>
+                                <span class="techBadge">API Integration</span>
+                            </div>
+                            <div class="projectLinks">
+                                <a href="https://github.com/AlexanderSP-GH" class="projectLink" target="_blank">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                    Source Code
+                                </a>
+                                <a href="#" class="projectLink projectLinkPrimary">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/>
+                                    </svg>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="sectionHeader">
+                    <p class="sectionLabel">Contact</p>
+                    <h2 class="sectionTitle">Let's Build Something Amazing Together</h2>
+                    <p class="sectionDesc">Open for collaboration, internship opportunities, and interesting project discussions</p>
+                </div>
+                <div class="contactWrapper">
+                    <div class="contactInfo">
+                        <h3 class="contactHeading">Get In Touch</h3>
+                        <p class="contactText">Whether you have a project in mind, a question about my work, or just want to connect, I'd love to hear from you. I typically respond within 24 hours.</p>
+                        <div class="contactDetails">
+                            <a href="mailto:alexander.paskah@binus.ac.id" class="contactItem">
+                                <div class="contactIcon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </div>
+                                <div class="contactData">
+                                    <span class="contactLabel">Email</span>
+                                    <span class="contactValue">alexander.paskah@binus.ac.id</span>
+                                </div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/alexander-surya-paskah-9494a6382" class="contactItem" target="_blank">
+                                <div class="contactIcon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                    </svg>
+                                </div>
+                                <div class="contactData">
+                                    <span class="contactLabel">LinkedIn</span>
+                                    <span class="contactValue">Alexander Surya Paskah</span>
+                                </div>
+                            </a>
+                            <a href="https://www.github.com/AlexanderSP-GH" class="contactItem" target="_blank">
+                                <div class="contactIcon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                    </svg>
+                                </div>
+                                <div class="contactData">
+                                    <span class="contactLabel">GitHub</span>
+                                    <span class="contactValue">AlexanderSP-GH</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contactForm" action="mailto:alexander.paskah@binus.ac.id" method="post" enctype="text/plain">
+                        <div class="formGrid">
+                            <div class="formField">
+                                <label for="name" class="formLabel">Full Name</label>
+                                <input type="text" id="name" name="name" class="formInput" placeholder="John Doe" required>
+                            </div>
+                            <div class="formField">
+                                <label for="email" class="formLabel">Email Address</label>
+                                <input type="email" id="email" name="email" class="formInput" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="formField">
+                            <label for="subject" class="formLabel">Subject</label>
+                            <input type="text" id="subject" name="subject" class="formInput" placeholder="Project Collaboration" required>
+                        </div>
+                        <div class="formField">
+                            <label for="message" class="formLabel">Message</label>
+                            <textarea id="message" name="message" class="formTextarea" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btnPrimary btnFull">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footerContent">
+                <div class="footerBrand">
+                    <span class="footerLogo">Alexander SP.</span>
+                    <p class="footerTagline">Computer Science Student passionate about building impactful digital experiences.</p>
+                </div>
+                <div class="footerSocial">
+                    <a href="https://www.linkedin.com/in/alexander-surya-paskah-9494a6382" class="socialLink" target="_blank" aria-label="LinkedIn Profile">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.github.com/AlexanderSP-GH" class="socialLink" target="_blank" aria-label="GitHub Profile">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:alexander.paskah@binus.ac.id" class="socialLink" aria-label="Send Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <p class="footerCopy">Copyright &copy 2026 by Alexander Surya Paskah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
