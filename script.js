@@ -1,5 +1,5 @@
 /**
- * LogicLens Portfolio - Main JavaScript
+ * Alexander SP. Portfolio - Main JavaScript
  * Features: Mobile Navigation, Dark/Light Theme Toggle, Smooth Scrolling, Header Effects
  * Author: Alexander Surya Paskah
  * Version: 1.0.0

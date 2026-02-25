@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Surya Paskah | Portfolio</title>
+    <title>Alexander SP | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,24 +11,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    
-
-    <button id="theme-toggle" aria-label="Toggle theme">
-        <i class="fas fa-moon"></i>
-    </button>
-    
     <header class="header">
         <nav class="nav">
             <div class="navBrand">Alexander SP.</div>
-            <ul class="navList">
+            <ul class="navList" id="nav-menu">
                 <li class="navItem"><a href="#home" class="navLink active">Home</a></li>
                 <li class="navItem"><a href="#about" class="navLink">About</a></li>
                 <li class="navItem"><a href="#projects" class="navLink">Projects</a></li>
                 <li class="navItem"><a href="#contact" class="navLink">Contact</a></li>
             </ul>
-            <button class="mobileToggle" aria-label="Toggle navigation menu">
-                <span class="hamburger"></span>
-            </button>
+            <div class="navActions">
+                <button class="themeToggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="mobileToggle" id="hamburger-menu" aria-expanded="false" aria-label="Toggle navigation menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
         </nav>
     </header>
 
@@ -38,7 +37,7 @@
                 <div class="heroContent">
                     <p class="heroGreeting">Hello, I'm</p>
                     <h1 class="heroTitle">Alexander Surya Paskah</h1>
-                    <p class="heroSubtitle">Computer Science Student & Aspiring Software Developer crafting digital solutions with passion and precision</p>
+                    <p class="heroSubtitle">Computer Science Student at Binus University passionate about building impactful digital experiences through clean code and innovative solutions</p>
                     <div class="heroCta">
                         <a href="#projects" class="btn btnPrimary">View My Work</a>
                         <a href="#contact" class="btn btnSecondary">Get In Touch</a>
@@ -47,7 +46,7 @@
                 <div class="heroVisual">
                     <div class="heroImageWrapper">
                         <div class="heroImagePlaceholder">
-                            <span><img src="assets/foto.jpeg"></span>
+                            <span><img src="assets/foto.jpeg" alt="Alexander Surya Paskah"></span>
                         </div>
                     </div>
                 </div>
@@ -55,7 +54,7 @@
             <div class="heroScroll">
                 <a href="#about" class="scrollIndicator">
                     <span>Scroll Down</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <path d="M12 5v14M19 12l-7 7-7-7"/>
                     </svg>
                 </a>
@@ -305,7 +304,7 @@
             <div class="footerContent">
                 <div class="footerBrand">
                     <span class="footerLogo">Alexander SP.</span>
-                    <p class="footerTagline">Computer Science Student passionate about building impactful digital experiences.</p>
+                    <p class="footerTagline">Computer Science Student at Binus University passionate about building impactful digital experiences.</p>
                 </div>
                 <div class="footerSocial">
                     <a href="https://www.linkedin.com/in/alexander-surya-paskah-9494a6382" class="socialLink" target="_blank" aria-label="LinkedIn Profile">
@@ -327,7 +326,7 @@
                 </div>
             </div>
             <div class="footerBottom">
-                <p class="footerCopy">Copyright &copy 2026 by Alexander Surya Paskah. All rights reserved.</p>
+                <p class="footerCopy">2024 Alexander Surya Paskah. All rights reserved.</p>
             </div>
         </div>
     </footer>

@@ -1,4 +1,4 @@
-# LogicLens
+# Alexander Surya Paskah — Portfolio
 
 > **Logic Meets Lens** — Where analytical thinking converges with creative vision.
 
@@ -11,7 +11,7 @@
 
 ## About
 
-**LogicLens** is my personal portfolio showcasing the intersection of software engineering and creative problem-solving. As a 3rd-semester Computer Science student at Binus University, I built this project to demonstrate my proficiency in modern web technologies while maintaining a clean, accessible, and visually engaging user experience.
+This is my personal portfolio showcasing the intersection of software engineering and creative problem-solving. As a Computer Science student at **Binus University**, I built this project to demonstrate my proficiency in modern web technologies while maintaining a clean, accessible, and visually engaging user experience.
 
 ### Design Philosophy
 
@@ -29,7 +29,7 @@
 | **Responsive Design** | Fluid layouts that adapt from mobile to desktop with breakpoint-optimized experiences |
 | **Theme Switching** | Persistent dark/light mode toggle with `localStorage` memory and system preference detection |
 | **Smooth Interactions** | CSS transitions, scroll-triggered animations, and buttery-smooth anchor navigation |
-| **Project Showcasing** | Curated gallery featuring Java Calculator, Python To-Do List, and Editorial Blog Template |
+| **Project Showcasing** | Curated gallery featuring E-Commerce Platform, Collaborative Task Manager, and Real-Time Weather Dashboard |
 | **Custom Scrollbar** | Styled scrollbar matching the design system for cohesive aesthetics |
 | **Mobile Navigation** | Hamburger menu with accessibility attributes and touch-friendly interactions |
 | **Form Validation** | Client-side validation with visual feedback states |
@@ -55,7 +55,7 @@ Design
 ## Project Structure
 
 ```
-LogicLens/
+portfolio/
 ├── index.html              # Main HTML entry point
 ├── style.css               # Stylesheet with CSS variables & themes
 ├── script.js               # Interactive functionality
@@ -76,10 +76,10 @@ LogicLens/
 
 ```bash
 # Clone the repository
-git clone https://github.com/LukasMystic/LogicLens.git
+git clone https://github.com/AlexanderSP-GH/portfolio.git
 
 # Navigate to project directory
-cd LogicLens
+cd portfolio
 
 # Open in browser (macOS)
 open index.html
@@ -161,8 +161,8 @@ Duplicate the `projectCard` article in `index.html`:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Stanley%20Pratama%20Teguh-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-surya-paskah-9494a6382)
-[![GitHub](https://img.shields.io/badge/GitHub-LukasMystic-181717?style=for-the-badge&logo=github)](https://github.com/AlexanderSP-GH)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander%20Surya%20Paskah-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-surya-paskah-9494a6382)
+[![GitHub](https://img.shields.io/badge/GitHub-AlexanderSP--GH-181717?style=for-the-badge&logo=github)](https://github.com/AlexanderSP-GH)
 [![Email](https://img.shields.io/badge/Email-alexander.paskah@binus.ac.id-EA4335?style=for-the-badge&logo=gmail)](mailto:alexander.paskah@binus.ac.id)
 
 </div>
