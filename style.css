@@ -240,14 +240,8 @@ body:not(.light-theme) .formTextarea::placeholder {
     color: var(--darkTextMuted);
 }
 
-/* ============================================
-   FIX 1: Theme Toggle Button - Moved to Bottom Left
-   ============================================ */
 #theme-toggle {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    right: auto;
+    position: flex-end;
     width: 50px;
     height: 50px;
     border-radius: var(--radiusFull);
@@ -280,19 +274,31 @@ body:not(.light-theme) #theme-toggle:hover {
 }
 
 @media (max-width: 768px) {
+    .navActions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-direction: row-reverse;
+    }
     #theme-toggle {
-        bottom: 20px;
-        left: 20px;
-        right: auto;
-        width: 45px;
-        height: 45px;
-        font-size: 18px;
+        position: flex;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        order: 2;
+    }
+    .mobileToggle {
+        display: block;
+        order: 1;
+        position: relative;
+        z-index: 1002;
+    }
+    .navActions {
+        position: relative;
+        z-index: 1002;
     }
 }
 
-/* ============================================
-   FIX 3: Contact Items Text Visibility in Dark Mode
-   ============================================ */
 body:not(.light-theme) .contactValue {
     color: var(--darkText) !important;
 }
@@ -310,9 +316,6 @@ body:not(.light-theme) .contactItem:hover .contactLabel {
     opacity: 0.8;
 }
 
-/* ============================================
-   FIX 4: Mobile Menu Box in Dark Mode
-   ============================================ */
 @media (max-width: 768px) {
     body:not(.light-theme) .navList {
         background: var(--darkSurface) !important;

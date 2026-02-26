@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (target) {
                     e.preventDefault();
                     
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset - 20;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerOffset + 80;
                     
                     window.scrollTo({
                         top: targetPosition,
