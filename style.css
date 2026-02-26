@@ -240,17 +240,14 @@ body:not(.light-theme) .formTextarea::placeholder {
     color: var(--darkTextMuted);
 }
 
-body:not(.light-theme) .navList {
-    background: var(--darkSurface);
-}
-
 /* ============================================
-   Theme Toggle Button
+   FIX 1: Theme Toggle Button - Moved to Bottom Left
    ============================================ */
 #theme-toggle {
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    left: 30px;
+    right: auto;
     width: 50px;
     height: 50px;
     border-radius: var(--radiusFull);
@@ -280,6 +277,70 @@ body:not(.light-theme) #theme-toggle {
 
 body:not(.light-theme) #theme-toggle:hover {
     box-shadow: var(--shadowAccent), 0 8px 25px rgba(100, 255, 218, 0.3);
+}
+
+@media (max-width: 768px) {
+    #theme-toggle {
+        bottom: 20px;
+        left: 20px;
+        right: auto;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* ============================================
+   FIX 3: Contact Items Text Visibility in Dark Mode
+   ============================================ */
+body:not(.light-theme) .contactValue {
+    color: var(--darkText) !important;
+}
+
+body:not(.light-theme) .contactLabel {
+    color: var(--darkTextMuted) !important;
+}
+
+body:not(.light-theme) .contactItem:hover .contactValue {
+    color: var(--accent) !important;
+}
+
+body:not(.light-theme) .contactItem:hover .contactLabel {
+    color: var(--accent) !important;
+    opacity: 0.8;
+}
+
+/* ============================================
+   FIX 4: Mobile Menu Box in Dark Mode
+   ============================================ */
+@media (max-width: 768px) {
+    body:not(.light-theme) .navList {
+        background: var(--darkSurface) !important;
+        border-left: 2px solid var(--darkSurfaceHover);
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    }
+    
+    body:not(.light-theme) .navLink {
+        color: var(--darkTextMuted);
+        border-bottom: 1px solid var(--darkSurfaceHover);
+        padding: 16px 0;
+        width: 100%;
+        display: block;
+    }
+    
+    body:not(.light-theme) .navLink:hover,
+    body:not(.light-theme) .navLink.active {
+        color: var(--accent);
+        background: var(--darkSurfaceHover);
+        padding-left: 16px;
+        border-radius: 8px;
+    }
+    
+    body:not(.light-theme) .hamburger,
+    body:not(.light-theme) .hamburger::before,
+    body:not(.light-theme) .hamburger::after {
+        background: var(--darkText);
+    }
 }
 
 /* ============================================
@@ -1161,10 +1222,6 @@ body:not(.light-theme) .contactIcon {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
-}
-
-body:not(.light-theme) .contactLabel {
-    color: var(--darkTextMuted);
 }
 
 .contactValue {
