@@ -159,9 +159,11 @@ Duplicate the `projectCard` article in `index.html`:
 
 <div>
 
-<div>[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander%20Surya%20Paskah-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-surya-paskah-9494a6382)</div>
-<div>[![GitHub](https://img.shields.io/badge/GitHub-AlexanderSP--GH-181717?style=for-the-badge&logo=github)](https://github.com/AlexanderSP-GH)</div>
-<div>[![Email](https://img.shields.io/badge/Email-alexander.paskah@binus.ac.id-EA4335?style=for-the-badge&logo=gmail)](mailto:alexander.paskah@binus.ac.id)</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Alexander%20Surya%20Paskah-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/alexander-surya-paskah-9494a6382)
+
+[![GitHub](https://img.shields.io/badge/GitHub-AlexanderSP--GH-181717?style=for-the-badge&logo=github)](https://github.com/AlexanderSP-GH)
+
+[![Email](https://img.shields.io/badge/Email-alexander.paskah@binus.ac.id-EA4335?style=for-the-badge&logo=gmail)](mailto:alexander.paskah@binus.ac.id)
 
 </div>
 
